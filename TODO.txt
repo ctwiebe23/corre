@@ -1,0 +1,2 @@
+allow "<" to be present in delimiters @bug
+report STDERR to the terminal @feature

@@ -1,0 +1,18 @@
+[package]
+name = "corre"
+version = "1.0.3"
+edition = "2021"
+authors = ["C Wiebe <ctwiebe23@gmail.com>"]
+description = "Execute shell scripts embedded within text"
+readme = "./README.md"
+homepage = "https://ctwiebe23.github.io/corre/"
+repository = "https://github.com/ctwiebe23/corre"
+license = "MIT"
+keywords = ["shell", "scripts"]
+categories = ["command-line-utilities"]
+exclude = ["doc/", "justfile", ".github/", "par/"]
+
+[dependencies]
+clap = { version = "4.5.40", features = ["derive"] }
+regex = "1.11.1"
+subprocess = "0.2.9"

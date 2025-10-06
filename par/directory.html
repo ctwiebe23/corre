@@ -1,0 +1,12 @@
+<p>
+  There are !((ls ./src/ | wc -l))! files in the
+  <code>./src/</code> directory:
+</p>
+
+<ul>
+!((
+  for FILE in $(ls ./src/); do
+    echo "<li><a href='./src/$FILE'><code>$FILE</code></a></li>"
+  done
+))!
+</ul>
