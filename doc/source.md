@@ -103,7 +103,7 @@ to call corre yourself before calling `cat`.
 [[[cat ./par/directory.html]]]
 ```
 
-```
+```html
 [[[cargo run -- -i ./par/directory.html]]]
 ```
 

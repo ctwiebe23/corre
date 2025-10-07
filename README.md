@@ -128,7 +128,7 @@ to call corre yourself before calling `cat`.
 </ul>
 ```
 
-```
+```html
 <p>
   There are 2 files in the
   <code>./src/</code> directory:
