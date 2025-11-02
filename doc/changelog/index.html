@@ -38,13 +38,13 @@ box-sizing:border-box;
 --tracking:0.15rem;
 --font-family:"Outfit", sans-serif;
 --mono-family:"DM Mono", monospace;
---fg:light-dark(#292222, #e0e0e8);
---bg:light-dark(#fff, #1c1c1f);
---fg2:light-dark(#292222, #e0e0e8);
---bg2:light-dark(#fde, #444460);
+--fg:light-dark(#292222, #dcd7ba);
+--bg:light-dark(#fff, #1f1f28);
+--fg2:light-dark(#a71, #7c777a);
+--bg2:light-dark(#fde, #335);
 --link:light-dark(#c25, #69f);
 --code-fg:light-dark(#292222, #1c1c1f);
---code-bg:light-dark(#e0e0e8, #e0e0e8);
+--code-bg:light-dark(#f0f0f8, #e0e0e8);
 font:var(--font-size) / 1.5 var(--font-family);
 hyphens:auto;
 color:var(--fg);
@@ -114,6 +114,10 @@ content:'on ';
 }
 hr {
 margin-block:var(--lg);
+border:none;
+height:var(--rule);
+color:var(--fg);
+background:var(--fg);
 }
 code {
 font-family:var(--mono-family);
